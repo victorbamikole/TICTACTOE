@@ -116,5 +116,8 @@ class GameBoardActivity : AppCompatActivity() {
 
     }
 
+    private fun chooseWinner(){
+
+    }
 
 }
