@@ -15,7 +15,7 @@ class GameBoardActivity : AppCompatActivity() {
     private val boardCells = Array(3) { arrayOfNulls<ImageView>(3) }
     var board = Board()
 
-    @SuppressLint("SetTextI18n")
+    @SuppressLint("SetTextI18n")//this annotation supppresses the funtion that works but still shows error
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_game_board)

@@ -26,7 +26,7 @@ class Board {
     }
 
 
-    /**This functions makes the move for each player and we pass the cell where we need to place the move*
+    /**This function makes the move for each player and we pass the cell where we need to place the move*
      * and we will pass the player whois playing and making the move
      */
     fun placeMove(cell: Cell, player: String){
