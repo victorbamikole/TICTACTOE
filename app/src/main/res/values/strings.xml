@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HILT TicTacToe</string>
+    <string name="firstSplashScreenText">TIC TAC TOE</string>
+</resources>
