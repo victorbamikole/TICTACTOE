@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HILTTicTacToe">
         <activity
+            android:name=".LocalMultiplayer.LocalPlayersGameBoard"
+            android:exported="true" />
+        <activity
+            android:name=".LocalMultiplayer.LocalPlayersDetails"
+            android:exported="true" />
+        <activity
             android:name=".GameBoardActivity"
             android:exported="true" />
         <activity

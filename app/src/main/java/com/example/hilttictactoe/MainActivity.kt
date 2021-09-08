@@ -3,6 +3,7 @@ package com.example.hilttictactoe
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.hilttictactoe.LocalMultiplayer.LocalPlayersDetails
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -19,6 +20,9 @@ class MainActivity : AppCompatActivity() {
 //                it.putExtra("secondPlayer", editSecondPlayer)
             }
             startActivity(intent)
+        }
+        localMultiplayer.setOnClickListener {
+            startActivity(Intent(this@MainActivity, LocalPlayersDetails::class.java))
         }
     }
 }
